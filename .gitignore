@@ -27,3 +27,6 @@ $RECYCLE.BIN/
 Thumbs.db
 UserInterfaceState.xcuserstate
 .env
+
+# GitHub
+.github_changelog_generator

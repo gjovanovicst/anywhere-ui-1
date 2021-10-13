@@ -9,11 +9,7 @@ import {
   EventEmitter,
 } from "@stencil/core";
 import Clusterize from "clusterize.js";
-import {
-  /*findAndReplaceInnerHtml,*/ uuid,
-  scrollStop,
-} from "../../utils/utils";
-import { getRows } from "./virtual-scroller.worker";
+import { uuid, getRows, scrollStop } from "../../utils/utils";
 
 @Component({
   tag: "any-virtual-scroller",
